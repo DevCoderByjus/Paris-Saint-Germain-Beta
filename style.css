@@ -1,0 +1,54 @@
+body {
+background-color: #004170;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+  }
+  
+  #PsgBio {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+    color: white;
+  }
+  
+  
+  h2 {
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+  }
+  
+  u {
+    color: white;
+  }
+
+  iframe {
+    border-radius: 40px;
+  }
+
+  h1 {
+    color: #003170;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  } 
+
+  h2 {
+    font-size: 14px;
+    color:#003170;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+
+  a {
+    color: white;
+  }
+
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
